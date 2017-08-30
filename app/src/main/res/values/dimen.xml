@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="d_heading_marginTop">36dp</dimen>
+    <dimen name="d_heading_textSize">50sp</dimen>
+    <dimen name="d_heading_marginLeft">109dp</dimen>
+    <dimen name="d_pass_marginTop">55dp</dimen>
+    <dimen name="d_userId_marginTop">60dp</dimen>
+    <dimen name="d_button_Login_textSize">20sp</dimen>
+    <dimen name="d_new_contact_heading_marginTop">33dp</dimen>
+    <dimen name="d_new_contact_name_marginTop">46dp</dimen>
+    <dimen name="d_new_contact_number_marginTop">43dp</dimen>
+    <dimen name="d_new_contact_save_marginTop">46dp</dimen>
+    <dimen name="d_profile_pic">80dp</dimen>
+    <dimen name="d_contact_view_height">120dp</dimen>
+    <dimen name="d_profile_pic_marginTop">20dp</dimen>
+    <dimen name="d_profile_pic_marginLeft">20dp</dimen>
+
+    <dimen name="d_search_btn">30dp</dimen>
+    <dimen name="d_search_btn_marginLeft">130dp</dimen>
+    <dimen name="d_back_btn">30dp</dimen>
+    <dimen name="d_cardView_height">120dp</dimen>
+    <dimen name="d_cardView_elevation">10dp</dimen>
+    <dimen name="d_cardView_cornerRadius">20dp</dimen>
+    <dimen name="d_userName_marginLeft">120dp</dimen>
+    <dimen name="d_userName_marginTop">40dp</dimen>
+    <dimen name="d_userName_textSize">20sp</dimen>
+    <dimen name="d_userName_status_marginLeft">120dp</dimen>
+    <dimen name="d_userName_status_marginTop">30dp</dimen>
+    <dimen name="d_userName_status_textSize">20sp</dimen>
+    <dimen name="d_status_marginLeft">120dp</dimen>
+    <dimen name="d_status_marginTop">60dp</dimen>
+    <dimen name="d_status_textSize">20sp</dimen>
+
+    <dimen name="d_editText_width">280dp</dimen>
+    <dimen name="d_editText_height">50dp</dimen>
+    <dimen name="d_textInputLayout_height">60dp</dimen>
+    <dimen name="d_login_button_marginTop">50dp</dimen>
+    <dimen name="d_register_textSize">15sp</dimen>
+    <dimen name="d_register_textView_marginLeft">20dp</dimen>
+    <dimen name="d_new_Contact_heading_textSize">40sp</dimen>
+    <dimen name="d_logout_button_layout_height">90dp</dimen>
+    <dimen name="d_home_user_name_textSize">20sp</dimen>
+    <dimen name="d_home_user_name_marginLeft">20sp</dimen>
+    <dimen name="d_home_user_name_marginTop">10sp</dimen>
+</resources>

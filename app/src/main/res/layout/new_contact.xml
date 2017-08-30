@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_new"
+        android:text="@string/s_new_contact_heading"
+        android:textSize="@dimen/d_new_Contact_heading_textSize"
+        android:layout_marginTop="@dimen/d_new_contact_heading_marginTop"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorAccent"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="@dimen/d_editText_width"
+        android:layout_height="@dimen/d_textInputLayout_height"
+        android:id="@+id/til_new_contact_name"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/tv_new"
+        android:layout_centerHorizontal="true">
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="@dimen/d_editText_width"
+            android:layout_height="@dimen/d_editText_height"
+            android:id="@+id/et_new_contact_name"
+            android:hint="@string/s_contact_name"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="@dimen/d_editText_width"
+        android:layout_height="@dimen/d_textInputLayout_height"
+        android:id="@+id/til_new_contact_number"
+        android:layout_below="@+id/til_new_contact_name"
+        android:layout_alignLeft="@+id/til_new_contact_name"
+        android:layout_alignStart="@+id/til_new_contact_name"
+        android:layout_marginTop="32dp"
+        >
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="@dimen/d_editText_width"
+            android:layout_height="@dimen/d_editText_height"
+            android:id="@+id/et_new_contact_number"
+            android:hint="@string/s_contact_number"
+            android:inputType="phone"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b_save"
+        android:textSize="@dimen/d_button_Login_textSize"
+        android:layout_below="@+id/til_new_contact_number"
+        android:layout_centerHorizontal="true"
+        android:text="@string/s_contact_save_text"
+        android:layout_marginTop="@dimen/d_new_contact_save_marginTop" />
+</RelativeLayout>
