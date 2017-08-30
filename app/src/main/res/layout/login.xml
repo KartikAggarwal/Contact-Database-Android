@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.databasetask.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_Heading"
+        android:text="@string/s_login_head"
+        android:textSize="@dimen/d_heading_textSize"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/d_heading_marginTop"
+        android:textColor="@color/colorAccent"/>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="@dimen/d_editText_width"
+        android:layout_height="@dimen/d_textInputLayout_height"
+        android:id="@+id/til_login"
+        android:layout_marginTop="@dimen/d_userId_marginTop"
+        android:layout_below="@+id/tv_Heading"
+        android:layout_centerHorizontal="true">
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="@dimen/d_editText_width"
+            android:layout_height="@dimen/d_editText_height"
+            android:id="@+id/et_login"
+            android:hint="@string/s_sub_1"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="@dimen/d_editText_width"
+        android:layout_height="@dimen/d_textInputLayout_height"
+        android:id="@+id/til_password"
+        android:layout_below="@+id/til_login"
+        android:layout_alignLeft="@+id/til_login"
+        android:layout_alignStart="@+id/til_login"
+        android:layout_marginTop="@dimen/d_pass_marginTop">
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="@dimen/d_editText_width"
+            android:layout_height="@dimen/d_editText_height"
+            android:id="@+id/et_password"
+            android:hint="@string/s_sub_2"
+            android:inputType="textPassword"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b_login"
+        android:layout_marginTop="@dimen/d_login_button_marginTop"
+        android:text="@string/s_login_button_text"
+        android:textSize="@dimen/d_button_Login_textSize"
+        android:onClick="authenticate"
+        android:layout_below="@+id/til_password"
+        android:layout_alignLeft="@+id/tv_Heading"
+        android:layout_alignStart="@+id/tv_Heading" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_register"
+        android:text="@string/s_register_textView_text"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/d_register_textSize"
+        android:layout_alignBaseline="@+id/b_login"
+        android:layout_alignBottom="@+id/b_login"
+        android:layout_toRightOf="@+id/b_login"
+        android:layout_toEndOf="@+id/b_login"
+        android:layout_marginLeft="@dimen/d_register_textView_marginLeft"/>
+</RelativeLayout>

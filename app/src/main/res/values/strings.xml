@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">DataBase Task</string>
+    <string name="s_login_head">LOGIN</string>
+    <string name="s_sub_1">ENTER USER NAME </string>
+    <string name="s_sub_2">ENTER PASSWORD </string>
+    <string name="s_login_button_text">LOGIN</string>
+    <string name="s_sub_3">ENTER NAME</string>
+    <string name="s_register_button_text">Register</string>
+    <string name="s_new_contact_heading">CONTACT</string>
+    <string name="s_contact_name">ENTER NAME</string>
+    <string name="s_contact_number">ENTER NUMBER</string>
+    <string name="s_contact_save_text">SAVE</string>
+    <string name="s_register_textView_text">REGISTER</string>
+    <string name="s_signup_heading_text">SIGN UP</string>
+    <string name="s_signup_button_text">SIGN UP</string>
+    <string name="s_login_textView_text">LOGIN</string>
+    <string name="s_home_user_Name_text">WELCOME</string>
+    <string name="s_logout_button_text">LOGOUT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

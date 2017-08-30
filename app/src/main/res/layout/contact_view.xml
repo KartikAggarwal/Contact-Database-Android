@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d_cardView_height"
+        android:elevation="@dimen/d_cardView_elevation"
+        app:cardCornerRadius="@dimen/d_cardView_cornerRadius"
+        android:id="@+id/cv_call">
+
+        <ImageView
+            android:layout_width="@dimen/d_profile_pic"
+            android:layout_height="@dimen/d_profile_pic"
+            android:id="@+id/iv_profile_pic"
+            android:layout_marginLeft="@dimen/d_profile_pic_marginLeft"
+            android:layout_marginTop="@dimen/d_profile_pic_marginTop"
+            android:background="@drawable/corner"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_contactName"
+            android:textSize="@dimen/d_userName_status_textSize"
+            android:layout_marginTop="@dimen/d_userName_status_marginTop"
+            android:layout_marginLeft="@dimen/d_userName_status_marginLeft"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_contactNumber"
+            android:textStyle="italic"
+            android:textSize="@dimen/d_status_textSize"
+            android:layout_marginLeft="@dimen/d_status_marginLeft"
+            android:layout_marginTop="@dimen/d_status_marginTop"/>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
